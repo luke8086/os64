@@ -25,5 +25,6 @@ vim config.py    # edit configuration
 
 ### Screenshots ###
 
-![qemu.png](https://bitbucket.org/qx89l4/os64/raw/master/misc/shot-qemu.png)
-![vbox.png](https://bitbucket.org/qx89l4/os64/raw/master/misc/shot-vbox.png)
+![](misc/shot-qemu.png)
+
+![](misc/shot-vbox.png)

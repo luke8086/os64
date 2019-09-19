@@ -188,7 +188,7 @@ def task_disk_image():
 
     # instal grub
     run('sudo grub-install --no-floppy --modules="part_msdos multiboot ext2" '\
-        '--boot-directory="{MOUNT_DIR}/boot/" "{LOOP_DEVICE}"')
+        '--target=i386-pc --boot-directory="{MOUNT_DIR}/boot/" "{LOOP_DEVICE}"')
 
     # unmount and cleaunp
     run('sudo umount {MOUNT_DIR}')

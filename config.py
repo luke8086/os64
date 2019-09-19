@@ -14,7 +14,7 @@ config['MOUNT_DIR'] = os.path.join(config['BASE_DIR'], 'tmp', 'mnt')
 
 config['DISK_IMAGE'] = os.path.join(config['BUILD_DIR'], 'disk.img')
 config['DISK_FS_OFFSET'] = 1048576
-config['LOOP_DEVICE'] = '/dev/loop4'
+config['LOOP_DEVICE'] = '/dev/loop20'
 config['SERIAL_OUT'] = os.path.join(config['BASE_DIR'], 'tmp', 'serial.out')
 
 config['CFLAGS'] = (

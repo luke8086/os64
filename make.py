@@ -82,7 +82,7 @@ def run(cmd, ignore_error = False):
 def task_clean():
     """Clean build directory"""
 
-    for subdir in ('kernel', 'gui', 'libc', 'loader', 'nf'):
+    for subdir in ('kernel', 'gui', 'libc', 'loader', 'nf', '*.img', '*.elf'):
         run('rm -rf "{BUILD_DIR}"/%s' % subdir)
 
 def task_kernel_objs():
